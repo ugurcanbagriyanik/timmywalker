@@ -7,18 +7,20 @@ public class GroundScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        GameObject.FindGameObjectWithTag("Timmy").GetComponent<Example>().GameOver();
+        if (other.tag == "Foot")
+        {
+            GameObject.FindGameObjectWithTag("Timmy").GetComponent<Example>().GameOver();
+        }
     }
 }

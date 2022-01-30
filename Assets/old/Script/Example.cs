@@ -13,6 +13,7 @@ public class Example : MonoBehaviour
     Vector3 COM;
     JointDrive Spring0;
 
+    public bool isDebugMod = false;
     public float uprate = 0.0f;
     public float forwardRate = 0.0f;
 
@@ -156,7 +157,7 @@ public class Example : MonoBehaviour
 
     public void GameOver()
     {
-        if (gameOver)
+        if (gameOver || isDebugMod)
         {
             return;
         }

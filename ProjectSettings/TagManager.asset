@@ -8,6 +8,10 @@ TagManager:
   - Foot
   - Timmy
   - GameManager
+  - Score_m
+  - HighScore
+  - GoldText
+  - GoldCoin
   layers:
   - Default
   - TransparentFX
