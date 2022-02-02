@@ -24414,6 +24414,7 @@ GameObject:
   - component: {fileID: 8112809637788573521}
   - component: {fileID: -6249817758767019347}
   - component: {fileID: 4372742861589342478}
+  - component: {fileID: -5014585142699743411}
   m_Layer: 0
   m_Name: RoadBackground1
   m_TagString: Untagged
@@ -24819,6 +24820,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.983515, y: 0.49955273, z: 43.86091}
   m_Center: {x: -21.46114, y: -0.42773247, z: -24.513376}
+--- !u!114 &-5014585142699743411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7787850080146584451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56473e22aa2f27040b1f9a5df17f3905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 2643772606759929987, guid: d9c5ebc01bda97248a416960b8675557, type: 3}
+  - {fileID: 1845187002965240008, guid: 5fe0d2816183fb447b860ad12e13398c, type: 3}
+  - {fileID: 1883813082208928082, guid: b49c6f450a89f8642944078a1f09d4d4, type: 3}
+  - {fileID: 4016256644948602560, guid: 26a2f44fb113c8d4587071c3d896b787, type: 3}
+  defaultX: -10
+  defaultY: -0.083
+  defaultZList:
+  - -28
+  - -23.5
 --- !u!1 &7846448345389456593
 GameObject:
   m_ObjectHideFlags: 0
