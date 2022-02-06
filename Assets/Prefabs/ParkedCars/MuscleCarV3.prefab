@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2792422249308836941}
   - component: {fileID: 82290148584431751}
   - component: {fileID: 8784100668244333573}
+  - component: {fileID: -199683118336568802}
   m_Layer: 0
   m_Name: MuscleCarV3
   m_TagString: Untagged
@@ -96,3 +97,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -675915563670003772, guid: 08646bcb6ab0691419816561264e749d, type: 3}
+--- !u!114 &-199683118336568802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883813082208928082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5a9db11abb06e419305c73c4c11c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  farFromTimmy: 100

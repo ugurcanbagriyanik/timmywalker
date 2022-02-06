@@ -129,14 +129,14 @@ public class GameManager : MonoBehaviour
         int r = (int)Random.Range(0, 10);
         float x = r < 5 ? 0.370f : -0.370f;
 
-        Instantiate(coin, new Vector3(x, 2, Random.Range(center_z - (bound_z / 2), center_z + (bound_z / 2))), Quaternion.identity);
+        Instantiate(coin, new Vector3(x, -0.02899904f, Random.Range(center_z - (bound_z / 2), center_z + (bound_z / 2))), Quaternion.identity);
     }
     public void CreateShit(float center_z, float bound_z)
     {
         int r = (int)Random.Range(0, 10);
         float x = r < 5 ? 0.370f : -0.370f;
 
-        Instantiate(shit, new Vector3(x, 1, Random.Range(center_z - (bound_z / 2), center_z + (bound_z / 2))), Quaternion.Euler(-90,0,0));
+        Instantiate(shit, new Vector3(x, -0.02899904f, Random.Range(center_z - (bound_z / 2), center_z + (bound_z / 2))), Quaternion.Euler(-90,0,0));
     }
 
     private void MoreShit(){

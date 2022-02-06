@@ -24832,16 +24832,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56473e22aa2f27040b1f9a5df17f3905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cars:
-  - {fileID: 2643772606759929987, guid: d9c5ebc01bda97248a416960b8675557, type: 3}
-  - {fileID: 1845187002965240008, guid: 5fe0d2816183fb447b860ad12e13398c, type: 3}
-  - {fileID: 1883813082208928082, guid: b49c6f450a89f8642944078a1f09d4d4, type: 3}
-  - {fileID: 4016256644948602560, guid: 26a2f44fb113c8d4587071c3d896b787, type: 3}
-  defaultX: -10
-  defaultY: -0.083
-  defaultZList:
-  - -28
-  - -23.5
+  groupPlacerConfigs:
+  - gameObjectGroup:
+    - {fileID: 2643772606759929987, guid: d9c5ebc01bda97248a416960b8675557, type: 3}
+    - {fileID: 1845187002965240008, guid: 5fe0d2816183fb447b860ad12e13398c, type: 3}
+    - {fileID: 1883813082208928082, guid: b49c6f450a89f8642944078a1f09d4d4, type: 3}
+    - {fileID: 4016256644948602560, guid: 26a2f44fb113c8d4587071c3d896b787, type: 3}
+    posiblePositions:
+    - posiblePosition: {x: 20, y: 0.219, z: -28}
+      posibleRotation: {x: 0, y: 0, z: 0}
+    - posiblePosition: {x: 20, y: 0.219, z: -23.5}
+      posibleRotation: {x: 0, y: 0, z: 0}
+    - posiblePosition: {x: 28, y: 0.219, z: -28}
+      posibleRotation: {x: 0, y: 0, z: 0}
+    - posiblePosition: {x: 28, y: 0.219, z: -23.5}
+      posibleRotation: {x: 0, y: 0, z: 0}
+    minDistance: 0
+    maxSize: 4
+    probability: 100
+    dublicateObjects: 0
 --- !u!1 &7846448345389456593
 GameObject:
   m_ObjectHideFlags: 0

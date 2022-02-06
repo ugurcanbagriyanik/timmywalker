@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8564547336578320784}
   - component: {fileID: 3438382538652898809}
   - component: {fileID: 7062918264152934199}
+  - component: {fileID: 5765790347026760401}
   m_Layer: 0
   m_Name: Shit
   m_TagString: Untagged
@@ -95,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017744439, y: 0.01795312, z: 0.01211558}
-  m_Center: {x: 0.0003055861, y: -0.00035406448, z: 0.0062873694}
+  m_Size: {x: 0.013048776, y: 0.013069239, z: 0.008024869}
+  m_Center: {x: 0.00000022550425, y: 0.00011334269, z: 0.0042420235}
 --- !u!54 &3438382538652898809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -125,3 +126,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f42bd3f62e4224429f1523452e36774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5765790347026760401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2909205213462879493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5a9db11abb06e419305c73c4c11c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  farFromTimmy: 40
