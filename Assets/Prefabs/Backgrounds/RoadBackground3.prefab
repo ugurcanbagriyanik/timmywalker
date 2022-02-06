@@ -74,10 +74,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupPlacerConfigs:
   - gameObjectGroup:
-    - {fileID: 2643772606759929987, guid: d9c5ebc01bda97248a416960b8675557, type: 3}
-    - {fileID: 1845187002965240008, guid: 5fe0d2816183fb447b860ad12e13398c, type: 3}
-    - {fileID: 1883813082208928082, guid: b49c6f450a89f8642944078a1f09d4d4, type: 3}
     - {fileID: 4016256644948602560, guid: 26a2f44fb113c8d4587071c3d896b787, type: 3}
+    - {fileID: 1883813082208928082, guid: b49c6f450a89f8642944078a1f09d4d4, type: 3}
+    - {fileID: 2643772606759929987, guid: d9c5ebc01bda97248a416960b8675557, type: 3}
     posiblePositions:
     - posiblePosition: {x: 29.1, y: 0.219, z: -12}
       posibleRotation: {x: 0, y: 0, z: 0}
@@ -93,7 +92,7 @@ MonoBehaviour:
       posibleRotation: {x: 0, y: 180, z: 0}
     minDistance: 2
     maxSize: 1
-    probability: 100
+    probability: 60
     dublicateObjects: 0
   - gameObjectGroup:
     - {fileID: 4302878671280217595, guid: c8bdb63b6e1abbb44b66f46012db2421, type: 3}
@@ -115,7 +114,27 @@ MonoBehaviour:
       posibleRotation: {x: 0, y: 180, z: 0}
     minDistance: 2
     maxSize: 2
-    probability: 100
+    probability: 60
+    dublicateObjects: 0
+  - gameObjectGroup:
+    - {fileID: 5285174987729393547, guid: 788f99c0acce4384a91a6c213fb34068, type: 3}
+    - {fileID: 8934234302468195902, guid: 40b5728c9a8fc364cbfbaadcdeb1af64, type: 3}
+    posiblePositions:
+    - posiblePosition: {x: 29.1, y: 0, z: -12}
+      posibleRotation: {x: 0, y: 90, z: 0}
+    - posiblePosition: {x: 29.1, y: 0, z: -18.5}
+      posibleRotation: {x: 0, y: 90, z: 0}
+    - posiblePosition: {x: 29.1, y: 0, z: -25}
+      posibleRotation: {x: 0, y: 90, z: 0}
+    - posiblePosition: {x: 29.1, y: 0, z: -12}
+      posibleRotation: {x: 0, y: 270, z: 0}
+    - posiblePosition: {x: 29.1, y: 0, z: -18.5}
+      posibleRotation: {x: 0, y: 270, z: 0}
+    - posiblePosition: {x: 29.1, y: 0, z: -25}
+      posibleRotation: {x: 0, y: 270, z: 0}
+    minDistance: 2
+    maxSize: 2
+    probability: 60
     dublicateObjects: 0
 --- !u!1001 &3501250929800975699
 PrefabInstance:

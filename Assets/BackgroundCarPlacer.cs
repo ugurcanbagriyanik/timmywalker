@@ -82,7 +82,7 @@ public class BackgroundCarPlacer : MonoBehaviour
                     futureObject = gp.gameObjectGroup.Except(usedObjects).ToList().GetRandomElement();
 
                     var posibleP = gp.posiblePositions.Except(usedPositions).Where(x => usedPositions.Where(l => Vector3.Distance(l.posiblePosition, x.posiblePosition) <= gp.minDistance).FirstOrDefault() == null).ToList().GetRandomElement();
-                    if (Random.Range(0, 100) <= gp.probability && futureObject != null)
+                    if (Random.Range(0, 100) <= gp.probability && futureObject != null && posibleP != null)
                     {
                         this.usedPositions.Add(posibleP);
                         this.usedObjects.Add(futureObject);
